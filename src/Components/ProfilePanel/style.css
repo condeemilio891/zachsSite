@@ -1,0 +1,98 @@
+
+#profileBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 98vh;
+    width: 12rem;
+    background-color:#48BFE3;
+    z-index: 1;
+    border-right-color: #7400B8;
+    border-bottom-color:#7400B8 ;
+    border-style: solid;
+    border-width: 5px;
+  
+  
+  }
+  
+  #profileImage{
+    border-radius: 50%;
+    height: 200px;
+    width:12rem;
+    /* background-color: black; */
+    background-size:cover;
+    background-image: url("../../Assets/Images/OIP.jpg");
+  }
+  #smallPanelButtons{
+    color: #7400b8;
+
+  }
+  #smallPanelButtons:hover{
+    cursor: pointer;
+    transform: scale(1.7);
+  }
+  #carouselIcons{
+    height: 4rem;
+    width: 4rem; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color:#48BFE3;
+  }
+  #carouselIconBox{
+    display: flex;
+    align-items: center;
+    height:4.5rem;
+    width: 4.5rem;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    background-color:#7400B8;
+    margin-bottom: 4px;
+  }
+  #carouselIconBox:hover{
+    cursor: pointer;
+  }
+
+  #profileButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+  width: 7rem;
+  height: 2rem;
+  background-color: aqua;
+  border-color: black;
+  border-style: solid;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  
+  /* This set radius to all 4 corners */  
+  border-radius: 10px; 
+  }
+
+  #profileButton:hover{
+    cursor: pointer;
+    background-color: #7400B8;
+  }
+  
+  #exitButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid black;
+  width: 7rem;
+  height: 2rem;
+  background-color: aqua;
+  border-color: black;
+  border-style: solid;
+  margin-bottom: 10px;
+  
+  /* This set radius to all 4 corners */  
+  border-radius: 10px; 
+  }
+  #exitButton:hover{
+    cursor: pointer;
+    background-color: #7400B8;
+  }
