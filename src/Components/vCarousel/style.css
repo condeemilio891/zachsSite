@@ -1,0 +1,72 @@
+.carousel-container{
+    position: absolute;
+    bottom: 10%;
+    height: 70%;
+    margin-left: 22%;
+    max-width: 230px;
+ 
+}
+.carousel-container .carousel-inner{
+    overflow:hidden;
+    height: 100%;
+    width:100%;
+}
+
+.carousel-container .track{
+    display:flex;
+    flex-direction: column;
+    transition: transform 1s;
+    
+}
+
+.carousel-container .card-container{
+    width: 230px;
+    flex-shrink: 0;
+    height: 200px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.carousel-container .card-container .card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.nav button {
+    position:absolute;
+    top:-30px;
+    right:50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1 px solid #aaa;
+    transform: translateX(30%);
+    cursor: pointer;
+
+}
+
+.card > * {
+    flex: 1;
+    
+}
+.card .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.card .info{
+    max-height: 20%;
+    flex-basis: 40px;
+    background: #333;
+    color: #fff;
+    flex-grow: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+

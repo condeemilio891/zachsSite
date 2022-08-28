@@ -10,7 +10,7 @@ import { faFilter,faClock,faHeart,faGripHorizontal,faGripVertical,faGear,faArrow
 
 const ProfileBox = () => {
 
-  const [showProfileBox,setShowProfileBox] =useState(false);
+  const [showProfileBox,setShowProfileBox] =useState(true);
   
   
 
@@ -25,7 +25,7 @@ const ProfileBox = () => {
 
     <CSSTransition in={showProfileBox} timeout={500} classNames={{
       enterActive: 'animate__bounceIn',
-      exitActive: 'animate__backOutLeft'
+      exitActive: 'animate__bounceOut'
     }}>
 
       <div className={`profileBox ${showProfileBox? "profileBox-active":""}`}>
