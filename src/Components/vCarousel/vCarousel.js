@@ -7,12 +7,18 @@ const VCarousel = () => {
 
   const [translateY,setTranslateY]=useState(0)
 
+  const updateY =(newY=>{
+    if(newY>0){
+        newY=0;
+    } setTranslateY(newY)
+  })
     
   return (
     <div className="carousel-container">
         <div className="carousel-inner">
-        <div className="track">
-
+        <div className="track" style={{transform:`translateY(${translateY}px)`}}>
+            
+    
             <div className="card-container">
                 <div className="card">
                     <div className="img">1</div>
@@ -77,7 +83,7 @@ const VCarousel = () => {
             
         </div>
         <div className="nav">
-                    <button className="prev" >
+                    <button className="prev" onClick={()=>{updateY(translateY-100)}} >
                         <FontAwesomeIcon icon={faArrowUp}/>
                     </button>
                     {/* <button className="next">

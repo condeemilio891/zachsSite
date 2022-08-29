@@ -1,8 +1,9 @@
+
 .carousel-container{
-    position: absolute;
-    bottom: 10%;
+    position: relative;
+   
     height: 70%;
-    margin-left: 22%;
+    margin-left: 5%;
     max-width: 230px;
  
 }
@@ -17,6 +18,13 @@
     flex-direction: column;
     transition: transform 1s;
     
+}
+
+.carousel-container .track-active1{
+    display:flex;
+    flex-direction: column;
+    transform: translateY(-100px);
+    transition: transform 1s;
 }
 
 .carousel-container .card-container{
