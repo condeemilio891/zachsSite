@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import "./App.css"
 
-function App() {
+import ProfileBox from './Components/ProfilePanel/ProfilePanel'
+import SearchBar from './Components/SearchBar/SearchBar'
+import VCarousel from './Components/vCarousel/vCarousel'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+<div id="bg1">
+  <>
+    <ProfileBox/>
+    {/* <SearchBar/> */}
+    <div id='carouselBox'>
+    
+    <VCarousel />
+    <VCarousel/>
+    <VCarousel/>
     </div>
-  );
+    </>
+  </div>
+    
+  )
 }
 
-export default App;
+export default App
+
