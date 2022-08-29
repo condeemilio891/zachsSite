@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zachsSite/static/css/main.3e18bf9a.css",
+    "main.js": "/zachsSite/static/js/main.3238b186.js",
+    "static/js/787.100319c1.chunk.js": "/zachsSite/static/js/787.100319c1.chunk.js",
+    "index.html": "/zachsSite/index.html",
+    "main.3e18bf9a.css.map": "/zachsSite/static/css/main.3e18bf9a.css.map",
+    "main.3238b186.js.map": "/zachsSite/static/js/main.3238b186.js.map",
+    "787.100319c1.chunk.js.map": "/zachsSite/static/js/787.100319c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e18bf9a.css",
+    "static/js/main.3238b186.js"
+  ]
+}
